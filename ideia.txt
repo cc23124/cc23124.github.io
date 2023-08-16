@@ -1,0 +1,28 @@
+repositório - Temática de Planeta, astronomia
+
+Quem eu sou? interesses, sla ----------------------------------
+
+Daniel aluno de Informática no COTUCA bla bla bla, gosta de dormir astronomia não sei
+
+Quais são minhas habilidades? ---------------------------------
+
+FRONT END: Programação em HTML e CSS
+BACK END: Python, JavaScript, Java e SQL 
+> se pá colocar cada um com uma imagem, algo assim
+
+
+Repertório ----------------------------------------------------
+
+Extra, alguma brincadeira, sei la -----------------------------
+
+Contato -------------------------------------------------------
+
+
+
+
+cores:
+#1B2A34
+#F8F0D2
+#C3CCB9
+#E05623
+#366978
