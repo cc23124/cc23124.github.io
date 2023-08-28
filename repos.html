@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=" ">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,34 +16,64 @@
 </head>
 <body>
     <header>
-        <img src="./Logo.png" id="logo">
+        <img src="./imgs/Logo.png" id="logo">
 
-        <div id="menu">
-                <a href="#pessoal">Quem eu sou</a>
-                <a href="#habilidades">Habilidades</a>
-                <a href="#repert">Repertório</a>
-                <a href="#extra">Extra</a>
-                <a href="#contato">Redes sociais</a>
+        <div id="opcoes">
+            <div id="menu">
+                    <a href="#pessoal">Quem eu sou</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#repert">Repositório</a>
+                    <a href="#extra">Extra</a>
+                    <a href="#contato">Redes sociais</a>
+            </div>
+            <img src="./imgs/moon.png" id="modoCE" onclick="trocarModo()">
         </div>
+
     </header>
 
-    <div id="pessoal">
-        <p style="font-size: 300%;">Lorem ipsum dolor sit amet consectetur,<br>
-             adipisicing elit. Porro maxime repellendus<br>
-              ipsum obcaecati odit, deleniti incidunt<br>
-               excepturi nulla, qui molestias, illo fugiat!<br>
-                Quaerat quis labore quos accusantium animi,<br>
-                 velit molestiae!</p>
+    <div id="recepcao">
+        <img id="imgPresenta" src="./imgs/Logo.png">
+        <p id="escrever"> Hello World </p> <!--aparecer hello world grande que se escreve e informações menores-->
+        <p id="subtexto"> Bem vindo ao meu Repositório </p>
     </div>
-    <div id="habilidades"></div>
-    <div id="repert"></div>
-    <div id="extra"></div>
-    <div id="contato"></div>
+
+    <div id="pessoal"> 
+        <h1 class="titulos">Quem eu sou?</h1>
+
+        <p class="tex">oooi! Sou Daniel, aluno do curso de informática no Colégio Técnico de Campinas da Unicamp. Eu gosto de programação, matemática, jogos digitais e trabalhar longas horas com pouca remuneração. No meu tempo livre, gosto de dormir. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores consequuntur blanditiis temporibus nulla ipsum tempora dolorum minus id iure assumenda dolores odio molestiae commodi sequi dolor, cum qui delectus mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto earum modi labore ipsa repellat illo quisquam amet exercitationem molestias obcaecati fuga laudantium neque error voluptate quo, sed saepe! Architecto, sequi? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias rerum, maxime consequuntur dicta dolor dolore distinctio delectus voluptatibus iste reprehenderit aut alias non velit itaque consectetur expedita, provident iure voluptatem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident laboriosam ex cumque id. Cum veniam laudantium libero voluptates cupiditate non voluptas eaque quisquam tenetur officia cumque, vel tempore ullam quidem?</p>
+        <div class="polaroid" id="pol1"><img src="./imgs/moon.png"></div>
+        <div class="polaroid" id="pol1"><img src="./imgs/moon.png"></div>
+        <div class="polaroid" id="pol1"><img src="./imgs/moon.png"></div>
+    </div> <!-- A direita, talvez colocar divs rotacionadas a imitar uma polaroid com fotos -->
+
+
+    <div id="habilidades">
+        <h1 class="titulos">Habilidades</h1>
+        <p class="tex">oooi! Sou Daniel, aluno do curso de informática no Colégio Técnico de Campinas da Unicamp. Eu gosto de programação, matemática, jogos digitais e trabalhar longas horas com pouca remuneração. No meu tempo livre, gosto de dormir. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores consequuntur blanditiis temporibus nulla ipsum tempora dolorum minus id iure assumenda dolores odio molestiae commodi sequi dolor, cum qui delectus mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto earum modi labore ipsa repellat illo quisquam amet exercitationem molestias obcaecati fuga laudantium neque error voluptate quo, sed saepe! Architecto, sequi? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias rerum, maxime consequuntur dicta dolor dolore distinctio delectus voluptatibus iste reprehenderit aut alias non velit itaque consectetur expedita, provident iure voluptatem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident laboriosam ex cumque id. Cum veniam laudantium libero voluptates cupiditate non voluptas eaque quisquam tenetur officia cumque, vel tempore ullam quidem?</p>
+    </div>
+
+    <div id="repert">
+        <h1 class="titulos">Repositório</h1>
+        <p class="tex">oooi! Sou Daniel, aluno do curso de informática no Colégio Técnico de Campinas da Unicamp. Eu gosto de programação, matemática, jogos digitais e trabalhar longas horas com pouca remuneração. No meu tempo livre, gosto de dormir. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores consequuntur blanditiis temporibus nulla ipsum tempora dolorum minus id iure assumenda dolores odio molestiae commodi sequi dolor, cum qui delectus mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto earum modi labore ipsa repellat illo quisquam amet exercitationem molestias obcaecati fuga laudantium neque error voluptate quo, sed saepe! Architecto, sequi? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias rerum, maxime consequuntur dicta dolor dolore distinctio delectus voluptatibus iste reprehenderit aut alias non velit itaque consectetur expedita, provident iure voluptatem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident laboriosam ex cumque id. Cum veniam laudantium libero voluptates cupiditate non voluptas eaque quisquam tenetur officia cumque, vel tempore ullam quidem?</p>
+
+    </div>
+
+    <div id="extra">
+        <h1 class="titulos">Extra</h1>
+        <p class="tex">oooi! Sou Daniel, aluno do curso de informática no Colégio Técnico de Campinas da Unicamp. Eu gosto de programação, matemática, jogos digitais e trabalhar longas horas com pouca remuneração. No meu tempo livre, gosto de dormir. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores consequuntur blanditiis temporibus nulla ipsum tempora dolorum minus id iure assumenda dolores odio molestiae commodi sequi dolor, cum qui delectus mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto earum modi labore ipsa repellat illo quisquam amet exercitationem molestias obcaecati fuga laudantium neque error voluptate quo, sed saepe! Architecto, sequi? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias rerum, maxime consequuntur dicta dolor dolore distinctio delectus voluptatibus iste reprehenderit aut alias non velit itaque consectetur expedita, provident iure voluptatem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident laboriosam ex cumque id. Cum veniam laudantium libero voluptates cupiditate non voluptas eaque quisquam tenetur officia cumque, vel tempore ullam quidem?</p>
+
+    </div>
+
+    <div id="contato">
+        <h1 class="titulos">Contato</h1>
+        <p class="tex">oooi! Sou Daniel, aluno do curso de informática no Colégio Técnico de Campinas da Unicamp. Eu gosto de programação, matemática, jogos digitais e trabalhar longas horas com pouca remuneração. No meu tempo livre, gosto de dormir. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores consequuntur blanditiis temporibus nulla ipsum tempora dolorum minus id iure assumenda dolores odio molestiae commodi sequi dolor, cum qui delectus mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto earum modi labore ipsa repellat illo quisquam amet exercitationem molestias obcaecati fuga laudantium neque error voluptate quo, sed saepe! Architecto, sequi? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias rerum, maxime consequuntur dicta dolor dolore distinctio delectus voluptatibus iste reprehenderit aut alias non velit itaque consectetur expedita, provident iure voluptatem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident laboriosam ex cumque id. Cum veniam laudantium libero voluptates cupiditate non voluptas eaque quisquam tenetur officia cumque, vel tempore ullam quidem?</p>
+
+    </div>
 
 
 
     <footer>
-
+        <p id="texFooter"><a>&copy Daniel Dorigan de Carvalho Campos</a>, nenhum direito reservado</p>
     </footer>
 </body>
 </html> 
