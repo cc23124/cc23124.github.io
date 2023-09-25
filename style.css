@@ -26,6 +26,12 @@ header{
     backdrop-filter: blur(3px);
 }
 
+@media (max-width: 800px){
+    #opcoes{
+        display: none;
+    }
+}
+
 body{
     margin: 0%;
     background-color: var(--secundaria);
@@ -86,22 +92,31 @@ div{
 }
 
 
-
 #recepcao{
     padding-top: 0;
     text-align: center;
     background-color: #1B2A34;
-    height: 80vh;
+    height: 85vh;
+    background-image: url(./imgs/fundoGalatico.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+#fundo{
+    position: relative;
 }
 
 #escrever{
     color: forestgreen;
-    font-size: 30px;
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #subtexto{
     color: var(--secundaria);
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #imgPresenta{
@@ -112,33 +127,111 @@ div{
 
 #pessoal{
     background-color: var(--secundaria);
+    height: 90vh;
 }
 
-.polaroid{
-    
+#pessoal #conteudo{
+    display: flex;
+    justify-content: space-between;
 }
 
-#pol1{
+#fotos{ /*div que contém as fotos*/
+    display: grid;
+    place-items: center;
+    width: 40%;
+    position: relative;
+    right: 19vh;
+}
 
+.polaroid{ /*colocar imagem na dimensão correta */
+    width: 230px;
+    padding-left: 3px;
+    padding-right: 3px;
+    height: 300px;
+    position: absolute;
+    box-shadow: 10px 10px 15px;
+}
+
+.polaroid img{
+    width: inherit;
+    margin: auto;
+}
+
+.polaroid:nth-child(1){
+    rotate: -20deg;
+    right: 21vh;
+    background-color: #f0f0f0;
+}
+
+.polaroid:nth-child(2){
+    rotate: 10deg;
+    right: 35px;
+    background-color: #e6e6e6;
 }
 
 #habilidades{
     background-color: var(--tre);
+    display: grid;
+    height: 90vh;
+}
 
+#habilidades .tex, #habilidades h1{
+    justify-self: end; /* simetria */
+    text-align: justify;
+    padding-right: 4%;
+    padding-left: 0%;
 }
 
 #repert{
+    background-color: var(--quat);
+    height: 90vh;
+}
+
+#repert h1{
+    text-align: center;
+}
+
+#carroceu{
+    background-color: var(--principal);
+    margin: auto;
+    width: 80%;
+    overflow-x: scroll;
+}
+
+#carro{
+    background-color: var(--fundo);
+    width: 400px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 500px;
+}
+
+#fotoCarro{
+    width: 100%;
+    max-height: 30%;
+    border-bottom: #1B2A34 2px solid;
+
+}
+
+#textoCarro{
     background-color: var(--quat);
 
 }
 
 #extra{
     background-color: var(--tre);
+    height: 90vh;
 
 }
 
 #contato{
     background-color: var(--secundaria);
+    height: 90vh;
+
+}
+
+#contato h1{
+    text-align: center;
 
 }
 
@@ -146,5 +239,5 @@ footer{
     text-align: center;
     background-color: var(--fundo);
     border-top: var(--quat) 3px solid;
-    bottom: 0;
+    display: grid;
 }
